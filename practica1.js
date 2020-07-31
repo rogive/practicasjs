@@ -1,19 +1,72 @@
 
 
 
+// 3. Write a JavaScript program to get the integers in range (x, y). Go to the editor
+// Example : range(2, 9)
+// Expected Output : [3, 4, 5, 6, 7, 8]
+
+/* function range(x,y){
+  let res = []
+  if(y > x){
+  for(let i = x+1; i < y; i++){
+    res.push(i)
+  }}else{
+    for(let i = y+1; i < x; i++){
+      res.push(i)
+    }
+  }
+  return res
+}
+
+console.log(range(10,2))
+ */
+
+
+
+ 
+
+// intento con doble puntero t.t
+
+
+/* range (4,10)
+n = 10
+res = [2,3,4,.....]
+ */
+/* 
+
+let res = [];
+function range(x,y){
+    if (x < y-1){
+        res.push(x+1);
+    } else {
+        return res;
+    }
+    return range(x+1,y);
+}
+
+console.log(range(2,10)); */
 
 
 
 
+/* var range = function(start_num, end_num) 
+{
+  if (end_num - start_num === 2) 
+  {
+    return [start_num + 1];
+  } 
+  else 
+  { console.log(list)
+    var list = range(start_num, end_num - 1);
+    list.push(end_num - 1);
+    return list;
+  }
+};
 
+console.log(range(2,9)); */
 
-
-
-
-
-
-
-
+// IIEF
+//(function d(){console.log("Hola Mundo")})()
 
 
 
@@ -118,3 +171,4 @@ console.log(printReverse(array)); */
     return decrementar(array.length - 1);
   }
 console.log(printReverse(array)); */
+
