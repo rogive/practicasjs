@@ -1,5 +1,13 @@
+function pakiman(vida)
+{
+    vida = vida + vida;
+    vida++;
+    return vida;
+}
+var vida = 2;
+vida = pakiman(vida);
 
-
+console.log(vida)
 
 // 3. Write a JavaScript program to get the integers in range (x, y). Go to the editor
 // Example : range(2, 9)
@@ -67,21 +75,6 @@ console.log(range(2,9)); */
 
 // IIEF
 //(function d(){console.log("Hola Mundo")})()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*  Ejercicio 2
